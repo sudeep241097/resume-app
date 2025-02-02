@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Ensure page breaks are handled properly for PDF */
+@media print {
+  body {
+    width: 8.5in;
+    height: 11in;
+    margin: 0;
+  }
+
+  .no-break {
+    page-break-inside: avoid; /* Prevent elements from splitting across pages */
+  }
+
+  .main-container {
+    max-width: 7.5in; /* Ensure the content fits within the page width */
+  }
+}
