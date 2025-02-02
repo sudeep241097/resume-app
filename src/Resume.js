@@ -131,7 +131,7 @@ export default function Resume() {
           {/* Summary Section */}
           <h2 className="text-xl font-bold text-gray-800 border-b-2 border-gray-300 pb-1 mb-4">Professional Summary</h2>
           <p className="text-gray-700 leading-relaxed">
-            I am a Dynamic Software Developer with over 5 years of experience in designing, developing, and supporting scalable applications utilizing Java, Spring Boot, and Vue.js. My expertise includes backend and frontend development, optimizing database access, and delivering user-friendly solutions.
+          Dynamic Software Developer with over 5 years of experience in designing, developing, and supporting scalable applications using Java, Spring Boot, VueJs, MySQL, and other modern technologies. Proficient in backend and frontend development, with expertise in Hibernate, Spring frameworks, and optimizing database access. Skilled in troubleshooting, delivering user-friendly solutions, and collaborating within agile teams to meet dynamic project requirements and deadlines.
           </p>
 
           {/* Skills Section */}
